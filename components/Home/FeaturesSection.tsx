@@ -56,15 +56,15 @@ const HealthTrackingCard = () => {
       </div>
 
       {/* قسم المحتوى النصي - مرئي على جميع الأجهزة */}
-      <div className="p-6 md:w-[58%] lg:w-[54%] max-md:text-center">
+      <div className="py-6 px-4 sm:p-6  md:w-[58%] lg:w-[54%] max-md:text-center">
         <h2 className="md:text-3xl text-2xl font-bold mb-4">
           تتبع عاداتك الصحية بذكاء
         </h2>
-        <p className="mb-3 text-sm leading-[22px] lg:leading-[33px]">
+        <p className="mb-3 text-sm sm:leading-[22px] lg:leading-[33px]">
           نحن نساعدك في تتبع عاداتك اليومية المتعلقة بالصحة الجسمانية بذكاء
           وفعالية، من خلال تحليل عاداتك الصحية لمساعدتك على تحديد أولوياتك
         </p>
-        <p className="mb-3 text-sm leading-[22px] lg:leading-[33px]">
+        <p className="mb-3 text-sm sm:leading-[22px] lg:leading-[33px]">
           بناءً على الآثار والفوائد. الأكثر من ذلك، الانتباه والالتزام لأهم
           أولوياتك هو المفتاح لتحقيق تحسينات ملموسة في صحتك الجسدية والعافية
           العامة

@@ -32,7 +32,7 @@ export default function ArabicHealthAI() {
               </p>
 
               {/* Search bar */}
-              <div className="mt-8 max-lg:mx-auto max-w-lg w-[80%] ml-auto">
+              <div className="mt-8 max-lg:mx-auto max-w-lg sm:w-[80%] ml-auto">
                 <div className="relative">
                   <Input
                     type="text"

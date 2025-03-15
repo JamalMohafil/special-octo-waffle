@@ -117,9 +117,9 @@ export default function Header() {
   const toggleMobileMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="relative h-24 " dir="rtl">
+    <header className={`relative overflow-hidden z-[999] h-[${isMenuOpen ? "300px" :"100px"}]`} dir="rtl">
       {/* Header background with gradient */}
-      <div className="bg-gradient-to-l fixed h-24 z-[999] w-full top-0 left-0 from-main-color-800 to-main-color-900">
+      <div className="bg-gradient-to-l fixed top-0 w-full left-0  from-main-color-800 to-main-color-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Top navigation bar */}
           <div className="flex justify-between items-center py-4">
@@ -129,10 +129,10 @@ export default function Header() {
                 width={60}
                 height={60}
                 src={logoPath}
-                className="rounded-lg"
+                className="rounded-lg max-sm:w-[50px]"
                 alt="logo"
               />
-              <div className="text-white text-2xl font-bold">{appName}</div>
+              <div className="text-white text-2xl max-sm:text-lg font-bold">{appName}</div>
             </div>
 
             {/* Mobile menu button and notifications for small screens */}

@@ -70,7 +70,7 @@ export default function ConsultationSection() {
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-8 lg:gap-12">
             {/* Right side - Text content (appears on left in RTL languages) */}
             <div className="lg:w-3/5 text-right max-lg:text-center">
-              <div className="space-y-6 md:space-y-8">
+              <div className="space-y-9 md:space-y-8">
                 {/* Main headings with emoji accents */}
                 <div className="space-y-6 max-sm:space-y-0">
                   <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-[40px] font-bold text-main-color-800 leading-tight">
@@ -90,7 +90,7 @@ export default function ConsultationSection() {
                 </div>
 
                 {/* Feature list with bullet points */}
-                <ul className="space-y-4 text-sm sm:text-lg w-[96%] md:text-xl text-main-color-800 list-none">
+                <ul className="space-y-4  text-sm sm:text-lg w-[96%] md:text-xl text-main-color-800 list-none">
                   {features.map((feature, index) => (
                     <li
                       key={index}
@@ -104,9 +104,9 @@ export default function ConsultationSection() {
                 </ul>
 
                 <Link href="/your-target-url" className=" mx-auto">
-                  <Button className="max-w-[200px] bg-main-color-600 hover:bg-main-color-700 text-white px-6 py-5 md:px-8 md:py-6 text-base md:text-lg rounded-xl shadow-lg transition-all duration-300">
+                  <Button className="max-w-[200px] bg-main-color-600  mt-6 hover:bg-main-color-700 text-white px-6 py-5 md:px-8 md:py-6 text-base md:text-lg rounded-xl shadow-lg transition-all duration-300">
                     <ArrowLeft className="ml-2 h-5 w-5" />
-                  الان جرب
+                    الان جرب
                   </Button>
                 </Link>
               </div>
