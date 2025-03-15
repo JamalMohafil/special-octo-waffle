@@ -265,7 +265,7 @@ export default function Header() {
           {/* Mobile menu - collapsible */}
           {isMenuOpen && (
             <div className="lg:hidden py-4 border-t border-main-color-700">
-              <ul className="gap-6 flex justify-center items-center flex-col">
+              <ul className="gap-6 flex justify-center items-start flex-col">
                 {navItems.map((item) => (
                   <li key={item.id}>
                     <a href={item.href} className={styles.navLink}>
