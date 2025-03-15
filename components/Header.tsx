@@ -117,7 +117,7 @@ export default function Header() {
   const toggleMobileMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className={`relative  z-[999] h-[${isMenuOpen ? "300px" :"100px"}]`} dir="rtl">
+    <header className={`relative  z-[999]`} style={{height:isMenuOpen ? "300px" : "100px"}} dir="rtl">
       {/* Header background with gradient */}
       <div className="bg-gradient-to-l fixed top-0 translate-y-0 translate-x-0 w-screen left-0  from-main-color-800 to-main-color-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
