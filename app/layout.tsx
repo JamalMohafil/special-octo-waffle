@@ -37,6 +37,9 @@ const cairo = localFont({
       style: "normal",
     },
   ],
+  display: "swap",
+  preload: true,
+  fallback: ["Arial", "sans-serif"], // إضافة خطوط بديلة
   variable: "--font-cairo",
 });
 

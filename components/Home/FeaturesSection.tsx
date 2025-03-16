@@ -106,6 +106,8 @@ export default function FeaturesSection() {
         <div className="bg-main-color-700 gap-2 rounded-3xl text-center relative p-6 flex flex-col shadow-md">
           <div className="flex flex-wrap justify-center h-full items-center">
             <img
+              decoding="async"
+              loading="lazy"
               src="/icons.svg"
               className="w-[80%] max-w-[270px]"
               alt="أيقونات العادات الصحية"
@@ -141,6 +143,8 @@ export default function FeaturesSection() {
           <div className="flex justify-center items-center lg:mt-4">
             <div className="relative max-sm:h-36 w-[300px] h-48">
               <img
+                decoding="async"
+                loading="lazy"
                 src="/cards.svg"
                 alt="بطاقات العادات الصحية"
                 className="max-md:w-[450px] max-sm:w-[370px] max-lg:w-[520px] w-[500px] max-w-none absolute left-1/2 -translate-x-1/2"
@@ -153,8 +157,15 @@ export default function FeaturesSection() {
         <div className="bg-main-color-400 overflow-hidden relative rounded-3xl p-6 shadow-md">
           {/* خلفية ديكورية للبطاقة */}
           <div className="relative -top-[12%] max-sm:hidden max-lg:-top-[8%] max-lg:-right-[8%] -right-[14%]">
-            <img src="/rectangle.svg" alt="خلفية زخرفية" />
             <img
+              decoding="async"
+              loading="lazy"
+              src="/rectangle.svg"
+              alt="خلفية زخرفية"
+            />
+            <img
+              decoding="async"
+              loading="lazy"
               src="/habits.svg"
               alt="أيقونات العادات"
               className="absolute left-[42%] max-lg:max-w-[300px] -translate-x-[42%] top-[63%] -translate-y-[63%] max-w-[360px]"
@@ -175,7 +186,13 @@ export default function FeaturesSection() {
 
           {/* عرض توضيحي للعادات */}
           <div className="px-12 py-2 mt-7 sm:hidden rounded-xl h-[140px] bg-white flex justify-center items-center">
-            <img src="/habits.svg" alt="أيقونات العادات" className="h-full" />
+            <img
+              decoding="async"
+              loading="lazy"
+              src="/habits.svg"
+              alt="أيقونات العادات"
+              className="h-full"
+            />
           </div>
         </div>
       </div>
